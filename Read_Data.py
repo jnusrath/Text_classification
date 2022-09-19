@@ -25,7 +25,7 @@ def read_csv(file_name, separator):
 
 def process_data(data):
     '''This function check if we are getting the same number of comments and the right text/labels
-     and also separates the reports and labels into two different lists'''
+     and also separates the reports and labels into two different lists.'''
 
     # reports and class labels will be stored here
     reports = []
